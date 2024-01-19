@@ -1,4 +1,4 @@
-22330648140405885
+22330648148368330
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -64107,7 +64107,7 @@ net tie
 4
 OSMI-parts
 VQFN-15-1EP-2.5x3mm_P0.5mm
-
+.125mm stencil
 
 0
 15
