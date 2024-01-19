@@ -326,6 +326,14 @@
     [
       "9fcc273e-b318-4ade-b4c7-fe4ddbf9d677",
       ""
+    ],
+    [
+      "80fb5872-9ff7-41e5-9921-84d432e9852e",
+      "usb"
+    ],
+    [
+      "c9a1ad6e-0e94-4050-a244-9bb2ec345a35",
+      "Power"
     ]
   ],
   "text_variables": {}

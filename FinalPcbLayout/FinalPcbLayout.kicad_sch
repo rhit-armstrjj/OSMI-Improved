@@ -1037,10 +1037,7 @@
     (uuid f7fbf4fa-1737-4753-a5bb-00165d5709fe)
   )
 
-  (no_connect (at 266.7 46.99) (uuid 00dbb361-ba05-40de-8bec-67685a0e407e))
-  (no_connect (at 143.51 87.63) (uuid 11e6c6c8-5c8d-4f15-86c0-37748ffed008))
   (no_connect (at 165.1 46.99) (uuid 37349d06-c498-4827-8249-b46156446b1e))
-  (no_connect (at 168.91 50.8) (uuid 45483811-ec64-45db-a6cd-335c641a0e54))
   (no_connect (at 100.33 140.97) (uuid 4b9b0372-13c6-42c6-91c4-69dac779b940))
   (no_connect (at 52.07 74.93) (uuid 4f4b299a-bdd5-452b-9bf0-47bd3e1c2528))
   (no_connect (at 52.07 64.77) (uuid 6852a678-9591-4d74-a3ba-8357a91b2696))
@@ -2421,6 +2418,40 @@
         (path "/9fcc273e-b318-4ade-b4c7-fe4ddbf9d677"
           (reference "J4") (unit 1)
         )
+      )
+    )
+  )
+
+  (sheet (at 198.12 22.86) (size 31.75 19.05) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 80fb5872-9ff7-41e5-9921-84d432e9852e)
+    (property "Sheetname" "usb" (at 198.12 22.1484 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "usb.kicad_sch" (at 198.12 42.4946 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "FinalPcbLayout"
+        (path "/9fcc273e-b318-4ade-b4c7-fe4ddbf9d677" (page "2"))
+      )
+    )
+  )
+
+  (sheet (at 198.12 50.8) (size 31.75 19.05) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid c9a1ad6e-0e94-4050-a244-9bb2ec345a35)
+    (property "Sheetname" "Power" (at 198.12 50.0884 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "power.kicad_sch" (at 198.12 70.4346 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "FinalPcbLayout"
+        (path "/9fcc273e-b318-4ade-b4c7-fe4ddbf9d677" (page "3"))
       )
     )
   )
