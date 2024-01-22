@@ -407,7 +407,7 @@
     (property "Value" "" (at 0 0 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 0 0 0)
+    (property "Footprint" "OSMI-parts:VQFN-15-1EP-2.5x3mm_P0.5mm" (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "https://www.ti.com/lit/ds/symlink/tps63070.pdf?ts=1705665685909&ref_url=https%253A%252F%252Fhu.mouser.com%252F" (at 0 0 0)
@@ -420,6 +420,9 @@
       )
     )
     (symbol "TPS63070RNM_1_1"
+      (text "TPS63070RNM" (at 0 11.43 0)
+        (effects (font (size 1.27 1.27)))
+      )
       (pin input line (at -11.43 -6.35 0) (length 2.54)
         (name "PS/SYNC" (effects (font (size 1.27 1.27))))
         (number "1" (effects (font (size 1.27 1.27))))
