@@ -29,7 +29,7 @@
         (stroke (width 0) (type default))
         (fill (type none))
       )
-      (text "FT232HPQ" (at 0 -30.48 0)
+      (text "FT232HPQ" (at 0 35.56 0)
         (effects (font (size 1.27 1.27)))
       )
       (pin tri_state line (at -17.78 31.75 0) (length 2.54)
