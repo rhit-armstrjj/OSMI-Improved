@@ -1992,8 +1992,8 @@
     (property "Sim.Enable" "0" (at 48.26 127 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "2" (uuid 7095141a-4d2a-4307-985c-65d13d5f6042))
     (pin "1" (uuid 55461c1c-a44c-41d7-81d5-13fd95feec55))
+    (pin "2" (uuid 7095141a-4d2a-4307-985c-65d13d5f6042))
     (instances
       (project "FinalPcbLayout"
         (path "/9fcc273e-b318-4ade-b4c7-fe4ddbf9d677/80fb5872-9ff7-41e5-9921-84d432e9852e"
@@ -2024,8 +2024,8 @@
     (property "Sim.Enable" "0" (at 74.93 105.41 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "2" (uuid c000fc42-aef2-4db6-99b5-e5ece6afbcf4))
     (pin "1" (uuid 31ebe4cc-69f8-4045-9dc2-8d5ea71f27e0))
+    (pin "2" (uuid c000fc42-aef2-4db6-99b5-e5ece6afbcf4))
     (instances
       (project "FinalPcbLayout"
         (path "/9fcc273e-b318-4ade-b4c7-fe4ddbf9d677/80fb5872-9ff7-41e5-9921-84d432e9852e"
@@ -2056,8 +2056,8 @@
     (property "Sim.Enable" "0" (at 59.69 110.49 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "2" (uuid 0a15925a-38a8-4b85-975f-436afbdfe78a))
     (pin "1" (uuid f115cc53-14c0-47de-b1ad-f5c1b41ddff6))
+    (pin "2" (uuid 0a15925a-38a8-4b85-975f-436afbdfe78a))
     (instances
       (project "FinalPcbLayout"
         (path "/9fcc273e-b318-4ade-b4c7-fe4ddbf9d677/80fb5872-9ff7-41e5-9921-84d432e9852e"
@@ -2163,8 +2163,8 @@
     (property "Sim.Enable" "0" (at 95.25 35.56 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "2" (uuid 25de471a-403e-427b-9670-009515652f15))
     (pin "1" (uuid 11ee6c19-4812-4809-a8a9-5b1b16b4bd42))
+    (pin "2" (uuid 25de471a-403e-427b-9670-009515652f15))
     (instances
       (project "FinalPcbLayout"
         (path "/9fcc273e-b318-4ade-b4c7-fe4ddbf9d677/80fb5872-9ff7-41e5-9921-84d432e9852e"
@@ -2366,8 +2366,8 @@
     (property "Sim.Enable" "0" (at 83.82 35.56 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "2" (uuid a39d8662-6c35-47a4-b7be-74b2b6f8b221))
     (pin "1" (uuid a82603be-937f-40da-bc93-251e6aba7f31))
+    (pin "2" (uuid a39d8662-6c35-47a4-b7be-74b2b6f8b221))
     (instances
       (project "FinalPcbLayout"
         (path "/9fcc273e-b318-4ade-b4c7-fe4ddbf9d677/80fb5872-9ff7-41e5-9921-84d432e9852e"
@@ -2600,14 +2600,14 @@
     (property "Sim.Enable" "0" (at 238.76 41.91 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (pin "1" (uuid 09c76b01-b88d-40e4-a19e-e43a627c8fc0))
+    (pin "2" (uuid 961b8267-628c-4a8b-b3a2-414ef043de0f))
+    (pin "3" (uuid 4cf05d32-7dfe-4b75-b4f3-28fafb803ea5))
+    (pin "4" (uuid f1d1fc64-f9d7-4151-9d35-552ae39be885))
     (pin "5" (uuid 1a3474cd-9dd9-46ee-a802-1e175379f03c))
+    (pin "6" (uuid aaf5ce9f-208c-4efd-a28d-463b5faad879))
     (pin "7" (uuid 1bfd3bf0-daa0-4c4c-993d-a4dc78ae00be))
     (pin "8" (uuid 88aac792-47e7-4836-af04-9f01413ced41))
-    (pin "2" (uuid 961b8267-628c-4a8b-b3a2-414ef043de0f))
-    (pin "4" (uuid f1d1fc64-f9d7-4151-9d35-552ae39be885))
-    (pin "3" (uuid 4cf05d32-7dfe-4b75-b4f3-28fafb803ea5))
-    (pin "6" (uuid aaf5ce9f-208c-4efd-a28d-463b5faad879))
-    (pin "1" (uuid 09c76b01-b88d-40e4-a19e-e43a627c8fc0))
     (instances
       (project "FinalPcbLayout"
         (path "/9fcc273e-b318-4ade-b4c7-fe4ddbf9d677/80fb5872-9ff7-41e5-9921-84d432e9852e"
@@ -2987,8 +2987,8 @@
     (pin "4" (uuid 2f8de960-6e3d-4435-aefa-1a6f2b258712))
     (pin "40" (uuid 65dfe959-2be1-4fed-80f4-959d79ccb07e))
     (pin "41" (uuid 64490014-7546-4e5a-9240-c4cf27280edd))
-    (pin "42" (uuid 3095e4aa-d5cd-44c2-9b39-057cb6b409ed))
-    (pin "42" (uuid 3095e4aa-d5cd-44c2-9b39-057cb6b409ee))
+    (pin "42" (uuid 3095e4aa-d5cd-44c2-9b39-057cb6b409ef))
+    (pin "42" (uuid 3095e4aa-d5cd-44c2-9b39-057cb6b409ef))
     (pin "43" (uuid b36f289b-2b53-4ca8-85bc-21d9127d0c5f))
     (pin "44" (uuid ed9418fc-24b2-4a51-8a57-dfa5a9252e87))
     (pin "45" (uuid d8447f58-fe9b-40b2-a542-b2e96771c05d))
@@ -3004,11 +3004,11 @@
     (pin "54" (uuid 3814b3f6-f556-4f4d-a5b5-5e1361e4a490))
     (pin "55" (uuid 844a02f6-17d3-4588-809a-aa8c87444059))
     (pin "56" (uuid fcf73d5e-876b-4393-ac9b-2d54510c625b))
+    (pin "57" (uuid 93ea6112-9ea3-497f-b448-4a4ea95e81e0))
     (pin "6" (uuid bf88d01f-c885-40dc-ab46-fdc57eeadc28))
     (pin "7" (uuid 8ec83c3a-a234-44af-a45d-e50bffc717b5))
     (pin "8" (uuid d04e2da1-5915-4817-a698-40339ee24088))
     (pin "9" (uuid cf1c7be1-19d5-4254-8949-90f4a672485c))
-    (pin "57" (uuid 93ea6112-9ea3-497f-b448-4a4ea95e81e0))
     (instances
       (project "FinalPcbLayout"
         (path "/9fcc273e-b318-4ade-b4c7-fe4ddbf9d677/80fb5872-9ff7-41e5-9921-84d432e9852e"
@@ -3039,8 +3039,8 @@
     (property "Sim.Enable" "0" (at 48.26 132.08 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "2" (uuid 39865bec-708e-4aac-9d23-b85949dca995))
     (pin "1" (uuid 925818bc-c110-4d8d-be38-aed1feb781ed))
+    (pin "2" (uuid 39865bec-708e-4aac-9d23-b85949dca995))
     (instances
       (project "FinalPcbLayout"
         (path "/9fcc273e-b318-4ade-b4c7-fe4ddbf9d677/80fb5872-9ff7-41e5-9921-84d432e9852e"

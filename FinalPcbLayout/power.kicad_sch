@@ -2014,8 +2014,8 @@
     (property "Sim.Enable" "0" (at 271.78 147.32 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "2" (uuid df8eb9a7-66d5-430f-883c-bff581714f39))
     (pin "1" (uuid 4e606375-3d8c-4f91-b0bc-910ba112f8cf))
+    (pin "2" (uuid df8eb9a7-66d5-430f-883c-bff581714f39))
     (instances
       (project "FinalPcbLayout"
         (path "/9fcc273e-b318-4ade-b4c7-fe4ddbf9d677/c9a1ad6e-0e94-4050-a244-9bb2ec345a35"
@@ -2062,7 +2062,7 @@
     (property "Footprint" "Capacitor_SMD:C_0603_1608Metric" (at 96.8248 49.53 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "~" (at 97.79 53.34 0)
+    (property "Datasheet" "" (at 97.79 53.34 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Cost" "0" (at 97.79 53.34 0)
@@ -2239,9 +2239,9 @@
     (property "Sim.Enable" "0" (at 39.37 29.21 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "3" (uuid 2c27dd7c-f966-4885-a801-2397c55afc04))
     (pin "1" (uuid 8fe4ef3f-a7b0-4cce-ac43-7c45c1a99cd0))
     (pin "2" (uuid 3dc35e00-6946-4e17-b787-e043296e44f0))
+    (pin "3" (uuid 2c27dd7c-f966-4885-a801-2397c55afc04))
     (instances
       (project "FinalPcbLayout"
         (path "/9fcc273e-b318-4ade-b4c7-fe4ddbf9d677/c9a1ad6e-0e94-4050-a244-9bb2ec345a35"
@@ -2329,8 +2329,8 @@
     (property "Sim.Enable" "0" (at 49.53 68.58 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "2" (uuid 88a916c1-86bf-4434-9609-062c50b0055a))
     (pin "1" (uuid edfc4643-70d2-4a38-a5c0-bf625d39e615))
+    (pin "2" (uuid 88a916c1-86bf-4434-9609-062c50b0055a))
     (instances
       (project "FinalPcbLayout"
         (path "/9fcc273e-b318-4ade-b4c7-fe4ddbf9d677/c9a1ad6e-0e94-4050-a244-9bb2ec345a35"
@@ -2438,7 +2438,7 @@
     (property "Value" "12m" (at 220.98 80.01 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Footprint" "Resistor_SMD:R_0603_1608Metric" (at 217.424 78.486 90)
+    (property "Footprint" "Resistor_SMD:R_1206_3216Metric" (at 217.424 78.486 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 218.44 78.74 0)
@@ -2559,7 +2559,7 @@
     (property "Value" "1uF" (at 237.49 54.61 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Footprint" "Capacitor_SMD:C_0603_1608Metric" (at 232.7148 49.53 0)
+    (property "Footprint" "Capacitor_SMD:C_0201_0603Metric" (at 232.7148 49.53 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 233.68 53.34 0)
@@ -2616,7 +2616,7 @@
     (property "Value" "10uF" (at 129.54 142.24 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Capacitor_SMD:C_0603_1608Metric" (at 126.6952 144.78 0)
+    (property "Footprint" "Capacitor_SMD:C_0805_2012Metric" (at 126.6952 144.78 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 125.73 140.97 0)
@@ -2712,7 +2712,7 @@
     (property "Value" "47uF" (at 262.89 138.43 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Capacitor_SMD:C_0603_1608Metric" (at 260.0452 140.97 0)
+    (property "Footprint" "Capacitor_SMD:C_0805_2012Metric" (at 260.0452 140.97 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 259.08 137.16 0)
@@ -2756,8 +2756,8 @@
     (property "Sim.Enable" "0" (at 271.78 137.16 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "2" (uuid 96601132-6e97-4a72-9306-5053217997bd))
     (pin "1" (uuid e3a30e31-0114-49a6-a650-74b355769da5))
+    (pin "2" (uuid 96601132-6e97-4a72-9306-5053217997bd))
     (instances
       (project "FinalPcbLayout"
         (path "/9fcc273e-b318-4ade-b4c7-fe4ddbf9d677/c9a1ad6e-0e94-4050-a244-9bb2ec345a35"
@@ -2840,7 +2840,7 @@
     (property "Value" "487" (at 182.88 53.34 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "Resistor_SMD:R_0603_1608Metric" (at 182.626 58.166 90)
+    (property "Footprint" "Resistor_SMD:R_1206_3216Metric" (at 182.626 58.166 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 182.88 57.15 0)
@@ -2872,7 +2872,7 @@
     (property "Value" "10uF" (at 245.11 138.43 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Capacitor_SMD:C_0603_1608Metric" (at 242.2652 140.97 0)
+    (property "Footprint" "Capacitor_SMD:C_0805_2012Metric" (at 242.2652 140.97 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 241.3 137.16 0)
@@ -2969,7 +2969,7 @@
     (property "Value" "1nF" (at 196.85 81.28 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Footprint" "Capacitor_SMD:C_0603_1608Metric" (at 192.0748 76.2 0)
+    (property "Footprint" "Capacitor_SMD:C_0805_2012Metric" (at 192.0748 76.2 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 193.04 80.01 0)
@@ -3336,9 +3336,9 @@
     (property "Sim.Enable" "0" (at 39.37 67.31 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "3" (uuid 265264f8-412f-4ef1-82ad-e09a0841191a))
     (pin "1" (uuid a518330a-3700-46d2-8695-300b877b1d84))
     (pin "2" (uuid 84e57b22-937f-4bdc-8d18-c7ab494da98b))
+    (pin "3" (uuid 265264f8-412f-4ef1-82ad-e09a0841191a))
     (instances
       (project "FinalPcbLayout"
         (path "/9fcc273e-b318-4ade-b4c7-fe4ddbf9d677/c9a1ad6e-0e94-4050-a244-9bb2ec345a35"
@@ -3503,7 +3503,7 @@
     (property "Value" "10uF" (at 40.64 129.54 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Capacitor_SMD:C_0603_1608Metric" (at 37.7952 132.08 0)
+    (property "Footprint" "Capacitor_SMD:C_0805_2012Metric" (at 37.7952 132.08 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 36.83 128.27 0)
@@ -3547,8 +3547,8 @@
     (property "Sim.Enable" "0" (at 49.53 30.48 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "2" (uuid 7e9130af-e3a0-4954-a485-95fb27933238))
-    (pin "1" (uuid 0614f5ba-834a-442e-b8a9-2806eaca9a63))
+    (pin "1" (uuid 4b842c95-bbd1-46f3-81c6-00c7639eeac4))
+    (pin "2" (uuid 7ec89f62-62fc-4f9c-b052-3716b4d3ef40))
     (instances
       (project "FinalPcbLayout"
         (path "/9fcc273e-b318-4ade-b4c7-fe4ddbf9d677/c9a1ad6e-0e94-4050-a244-9bb2ec345a35"
@@ -3755,13 +3755,13 @@
     (property "Value" "10uF" (at 93.98 73.66 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Footprint" "Capacitor_SMD:C_0603_1608Metric" (at 89.2048 68.58 0)
+    (property "Footprint" "Capacitor_SMD:C_0805_2012Metric" (at 89.2048 68.58 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 90.17 72.39 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Cost" "0" (at 90.17 72.39 0)
+    (property "Cost" "  (uuid fabb1e82-3a32-4eed-b578-540d99c03e17)" (at 90.17 72.39 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Sim.Enable" "0" (at 90.17 72.39 0)

@@ -3040,7 +3040,7 @@
     (property "Value" "10uF" (at 95.25 149.86 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Capacitor_SMD:C_0603_1608Metric" (at 103.8352 152.4 0)
+    (property "Footprint" "Capacitor_SMD:C_0805_2012Metric" (at 103.8352 152.4 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 102.87 148.59 0)
