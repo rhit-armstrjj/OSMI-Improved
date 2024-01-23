@@ -1619,7 +1619,7 @@
     (property "Value" "D_Schottky" (at 211.1375 39.37 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "Diode_SMD:D_0603_1608Metric" (at 210.82 43.18 0)
+    (property "Footprint" "SL42_E3_57T:CR_2-E3&slash_57T_VIS" (at 210.82 43.18 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "https://www.vishay.com/docs/88742/sl42.pdf" (at 210.82 43.18 0)
