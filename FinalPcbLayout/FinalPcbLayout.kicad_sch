@@ -2593,32 +2593,6 @@
     )
   )
 
-  (symbol (lib_id "Connector:Conn_01x02_Pin") (at 140.97 33.02 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 684d9d41-3a5a-4cfd-bc52-1c54e7ed2d1d)
-    (property "Reference" "J7" (at 141.605 27.94 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "Conn_01x02_Pin" (at 141.605 30.48 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "Connector_PinHeader_1.00mm:PinHeader_1x02_P1.00mm_Vertical" (at 140.97 33.02 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 140.97 33.02 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 7d6c6a50-14c2-4dc8-9dc8-58e03b7b1651))
-    (pin "2" (uuid fc13ea43-4ad7-43bb-b049-762903799653))
-    (instances
-      (project "FinalPcbLayout"
-        (path "/9fcc273e-b318-4ade-b4c7-fe4ddbf9d677"
-          (reference "J7") (unit 1)
-        )
-      )
-    )
-  )
-
   (symbol (lib_id "power:GND") (at 157.48 35.56 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 6e3c5f04-6fb1-4e16-9a82-9d283b4e1c5f)
