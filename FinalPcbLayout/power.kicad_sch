@@ -2279,8 +2279,8 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 8fe4ef3f-a7b0-4cce-ac43-7c45c1a99cd0))
-    (pin "4" (uuid 3dc35e00-6946-4e17-b787-e043296e44f0))
     (pin "3" (uuid 2c27dd7c-f966-4885-a801-2397c55afc04))
+    (pin "4" (uuid 3dc35e00-6946-4e17-b787-e043296e44f0))
     (instances
       (project "FinalPcbLayout"
         (path "/9fcc273e-b318-4ade-b4c7-fe4ddbf9d677/c9a1ad6e-0e94-4050-a244-9bb2ec345a35"
@@ -3340,8 +3340,8 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid a518330a-3700-46d2-8695-300b877b1d84))
-    (pin "4" (uuid 84e57b22-937f-4bdc-8d18-c7ab494da98b))
     (pin "3" (uuid 265264f8-412f-4ef1-82ad-e09a0841191a))
+    (pin "4" (uuid 84e57b22-937f-4bdc-8d18-c7ab494da98b))
     (instances
       (project "FinalPcbLayout"
         (path "/9fcc273e-b318-4ade-b4c7-fe4ddbf9d677/c9a1ad6e-0e94-4050-a244-9bb2ec345a35"

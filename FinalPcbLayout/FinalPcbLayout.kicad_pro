@@ -55,7 +55,14 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        "lib_footprint_mismatch|124731397|113637500|b4b065bd-77c2-47ca-8e7d-077426180cdd|00000000-0000-0000-0000-000000000000",
+        "silk_edge_clearance|156816000|129090000|80fcc5f9-ca3d-4ddd-a708-c4efce958241|4e01cd1c-26cf-46ea-b69b-e37458f56fc8",
+        "silk_edge_clearance|165960000|129090000|80fcc5f9-ca3d-4ddd-a708-c4efce958241|794a01b7-04f4-4313-ba43-187fecfd68c4",
+        "silk_edge_clearance|183070000|111870000|80fcc5f9-ca3d-4ddd-a708-c4efce958241|3fa16edc-fe2c-4069-9b44-5b17b39fd677",
+        "silk_edge_clearance|183070000|93870000|80fcc5f9-ca3d-4ddd-a708-c4efce958241|b071ddcb-8bd0-43f1-8b10-acde144c6815",
+        "starved_thermal|129034000|121722400|85beb13d-71e9-4243-9821-39467d9fd73a|b75aef14-3888-4e96-bb4a-9a426c158215|F.Cu"
+      ],
       "meta": {
         "version": 2
       },
@@ -111,21 +118,21 @@
       },
       "rules": {
         "max_error": 0.005,
-        "min_clearance": 0.0,
-        "min_connection": 0.0,
+        "min_clearance": 0.09,
+        "min_connection": 0.09,
         "min_copper_edge_clearance": 0.0,
         "min_hole_clearance": 0.25,
-        "min_hole_to_hole": 0.25,
+        "min_hole_to_hole": 0.5,
         "min_microvia_diameter": 0.19999999999999998,
-        "min_microvia_drill": 0.09999999999999999,
+        "min_microvia_drill": 0.15,
         "min_resolved_spokes": 2,
         "min_silk_clearance": 0.0,
         "min_text_height": 0.7999999999999999,
         "min_text_thickness": 0.08,
-        "min_through_hole_diameter": 0.3,
-        "min_track_width": 0.0,
-        "min_via_annular_width": 0.09999999999999999,
-        "min_via_diameter": 0.5,
+        "min_through_hole_diameter": 0.15,
+        "min_track_width": 0.09,
+        "min_via_annular_width": 0.049999999999999996,
+        "min_via_diameter": 0.25,
         "solder_mask_clearance": 0.0,
         "solder_mask_min_width": 0.0,
         "solder_mask_to_copper_clearance": 0.0,
@@ -174,6 +181,7 @@
       "track_widths": [
         0.0,
         0.09,
+        0.5,
         0.9
       ],
       "via_dimensions": [
@@ -536,7 +544,7 @@
         "pattern": "+1V2"
       },
       {
-        "netclass": "normal_digital",
+        "netclass": "short_digital",
         "pattern": "/JTAG_TDO"
       },
       {
