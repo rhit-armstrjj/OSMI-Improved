@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <export version="E">
   <design>
-    <source>D:\GitHub\OSMI-FinalPcb\FinalPcbLayout\FinalPcbLayout.kicad_sch</source>
-    <date>1/24/2024 3:03:34 PM</date>
-    <tool>Eeschema 7.0.9</tool>
+    <source>C:\Users\armstrjj\OneDrive - Rose-Hulman Institute of Technology\Documents\GitHub\OSMI-FinalPcb\FinalPcbLayout\FinalPcbLayout.kicad_sch</source>
+    <date>2/3/2024 2:33:44 PM</date>
+    <tool>Eeschema 7.0.10</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
         <title/>
@@ -131,12 +131,12 @@
     <comp ref="C25">
       <value>22uf</value>
       <footprint>Capacitor_SMD:C_Elec_4x5.4</footprint>
-      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <libsource lib="Device" part="C_Polarized_Small_US" description="Polarized capacitor, small US symbol"/>
       <property name="digikey_pn" value=""/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="FinalPcbLayout.kicad_sch"/>
-      <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
-      <property name="ki_keywords" value="capacitor cap"/>
+      <property name="ki_description" value="Polarized capacitor, small US symbol"/>
+      <property name="ki_keywords" value="cap capacitor"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>66a388f2-da7e-4df6-9e4f-5fdaee90926d</tstamps>
     </comp>
@@ -414,7 +414,7 @@
       <tstamps>5428bad7-7090-45f3-9127-9fd970e600fb</tstamps>
     </comp>
     <comp ref="U2">
-      <value>~</value>
+      <value>MAX98357</value>
       <footprint>Package_DFN_QFN:QFN-16-1EP_3x3mm_P0.5mm_EP1.45x1.45mm</footprint>
       <datasheet>https://www.analog.com/media/en/technical-documentation/data-sheets/MAX98357A-MAX98357B.pdf</datasheet>
       <fields>
@@ -703,7 +703,7 @@
       <tstamps>6b74dd32-6d6e-45fa-9fcc-8ca6e8323923</tstamps>
     </comp>
     <comp ref="R19">
-      <value>65</value>
+      <value>68</value>
       <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
       <fields>
         <field name="Cost">0</field>
@@ -822,7 +822,7 @@
       <tstamps>1cdf41c7-9627-41b1-90b6-5c86b4e08523</tstamps>
     </comp>
     <comp ref="U6">
-      <value>~</value>
+      <value>FT232HPQ</value>
       <footprint>Package_DFN_QFN:QFN-56-1EP_8x8mm_P0.5mm_EP4.5x5.2mm_ThermalVias</footprint>
       <datasheet>https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/2615/FT23XHP.pdf</datasheet>
       <fields>
@@ -989,12 +989,12 @@
         <field name="Cost">0</field>
         <field name="Sim.Enable">0</field>
       </fields>
-      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <libsource lib="Device" part="C_Polarized_US" description="Polarized capacitor, US symbol"/>
       <property name="Cost" value="0"/>
       <property name="Sim.Enable" value="0"/>
       <property name="Sheetname" value="Power"/>
       <property name="Sheetfile" value="power.kicad_sch"/>
-      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_description" value="Polarized capacitor, US symbol"/>
       <property name="ki_keywords" value="cap capacitor"/>
       <sheetpath names="/Power/" tstamps="/c9a1ad6e-0e94-4050-a244-9bb2ec345a35/"/>
       <tstamps>22239f9a-677d-4439-bbb6-93a823382202</tstamps>
@@ -1193,15 +1193,17 @@
     </comp>
     <comp ref="L1">
       <value>2.2uH</value>
-      <footprint>Inductor_SMD:L_Coilcraft_XAL8050-223</footprint>
+      <footprint>Inductor_SMD:L_Coilcraft_XAL8080-XXX</footprint>
       <datasheet>http://www.coilcraft.com/pdfs/xal50xx.pdf</datasheet>
       <fields>
-        <field name="Cost">0</field>
+        <field name="Cost">6.73</field>
         <field name="Sim.Enable">0</field>
+        <field name="digikey_pn">2457-XAL8080-222MED-ND</field>
       </fields>
       <libsource lib="Device" part="L" description="Inductor"/>
-      <property name="Cost" value="0"/>
+      <property name="Cost" value="6.73"/>
       <property name="Sim.Enable" value="0"/>
+      <property name="digikey_pn" value="2457-XAL8080-222MED-ND"/>
       <property name="Sheetname" value="Power"/>
       <property name="Sheetfile" value="power.kicad_sch"/>
       <property name="ki_description" value="Inductor"/>
@@ -1210,21 +1212,24 @@
       <tstamps>13e83fde-6ead-4d1f-b0a6-21fc0770c5f2</tstamps>
     </comp>
     <comp ref="L2">
-      <value>L</value>
-      <footprint>Inductor_SMD:L_Coilcraft_XAL8050-223</footprint>
+      <value>2.2uH</value>
+      <footprint>Inductor_SMD:L_Coilcraft_XAL8080-XXX</footprint>
+      <datasheet>http://www.coilcraft.com/pdfs/xal50xx.pdf</datasheet>
       <fields>
-        <field name="Cost">0</field>
+        <field name="Cost">6.73</field>
         <field name="Sim.Enable">0</field>
+        <field name="digikey_pn">2457-XAL8080-222MED-ND</field>
       </fields>
       <libsource lib="Device" part="L" description="Inductor"/>
-      <property name="Cost" value="0"/>
+      <property name="Cost" value="6.73"/>
       <property name="Sim.Enable" value="0"/>
+      <property name="digikey_pn" value="2457-XAL8080-222MED-ND"/>
       <property name="Sheetname" value="Power"/>
       <property name="Sheetfile" value="power.kicad_sch"/>
       <property name="ki_description" value="Inductor"/>
       <property name="ki_keywords" value="inductor choke coil reactor magnetic"/>
       <sheetpath names="/Power/" tstamps="/c9a1ad6e-0e94-4050-a244-9bb2ec345a35/"/>
-      <tstamps>7336c3e9-1373-44f7-b368-f4929875add6</tstamps>
+      <tstamps>3ed6b705-d509-434f-b5de-c98f0b741ec4</tstamps>
     </comp>
     <comp ref="Q1">
       <value>NMOS</value>
@@ -1409,7 +1414,7 @@
       <tstamps>7d4736b9-075b-41ab-b85c-1e88d1798748</tstamps>
     </comp>
     <comp ref="R7">
-      <value>27.4</value>
+      <value>27.4k</value>
       <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
       <fields>
         <field name="Cost">0</field>
@@ -1511,7 +1516,7 @@
       <tstamps>0378c571-ff3a-4612-b734-7c7c1aacb795</tstamps>
     </comp>
     <comp ref="U3">
-      <value>~</value>
+      <value>TPS63070RNMR</value>
       <footprint>OSMI-parts:VQFN-15-1EP-2.5x3mm_P0.5mm</footprint>
       <datasheet>https://www.ti.com/lit/ds/symlink/tps63070.pdf?ts=1705665685909&amp;ref_url=https%253A%252F%252Fhu.mouser.com%252F</datasheet>
       <fields>
@@ -1545,7 +1550,7 @@
       <tstamps>78cc1a20-8a6b-4ed3-9a98-d5fcada6da41</tstamps>
     </comp>
     <comp ref="U5">
-      <value>~</value>
+      <value>LM51551DSSR</value>
       <footprint>Package_SON:WSON-12-1EP_3x2mm_P0.5mm_EP1x2.65_ThermalVias</footprint>
       <datasheet>https://www.ti.com/lit/ds/symlink/lm51551.pdf</datasheet>
       <fields>
@@ -1751,6 +1756,38 @@
       <fields>
         <field name="Reference">C</field>
         <field name="Value">C</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C_Polarized_Small_US">
+      <description>Polarized capacitor, small US symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>CP_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C_Polarized_Small_US</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C_Polarized_US">
+      <description>Polarized capacitor, US symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>CP_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C_Polarized_US</field>
         <field name="Datasheet">~</field>
       </fields>
       <pins>
@@ -2220,37 +2257,37 @@
   </libparts>
   <libraries>
     <library logical="Connector">
-      <uri>C:\Program Files\KiCad\7.0\share\kicad\symbols\/Connector.kicad_sym</uri>
+      <uri>C:\Users\armstrjj\AppData\Local\Programs\KiCad\7.0\share\kicad\symbols\/Connector.kicad_sym</uri>
     </library>
     <library logical="Connector_Generic">
-      <uri>C:\Program Files\KiCad\7.0\share\kicad\symbols\/Connector_Generic.kicad_sym</uri>
+      <uri>C:\Users\armstrjj\AppData\Local\Programs\KiCad\7.0\share\kicad\symbols\/Connector_Generic.kicad_sym</uri>
     </library>
     <library logical="Device">
-      <uri>C:\Program Files\KiCad\7.0\share\kicad\symbols\/Device.kicad_sym</uri>
+      <uri>C:\Users\armstrjj\AppData\Local\Programs\KiCad\7.0\share\kicad\symbols\/Device.kicad_sym</uri>
     </library>
     <library logical="Mechanical">
-      <uri>C:\Program Files\KiCad\7.0\share\kicad\symbols\/Mechanical.kicad_sym</uri>
+      <uri>C:\Users\armstrjj\AppData\Local\Programs\KiCad\7.0\share\kicad\symbols\/Mechanical.kicad_sym</uri>
     </library>
     <library logical="Memory_EEPROM">
-      <uri>C:\Program Files\KiCad\7.0\share\kicad\symbols\/Memory_EEPROM.kicad_sym</uri>
+      <uri>C:\Users\armstrjj\AppData\Local\Programs\KiCad\7.0\share\kicad\symbols\/Memory_EEPROM.kicad_sym</uri>
     </library>
     <library logical="OSMI-parts">
-      <uri>D:\GitHub\OSMI-FinalPcb\FinalPcbLayout/OSMI-parts.kicad_sym</uri>
+      <uri>C:\Users\armstrjj\OneDrive - Rose-Hulman Institute of Technology\Documents\GitHub\OSMI-FinalPcb\FinalPcbLayout/OSMI-parts.kicad_sym</uri>
     </library>
     <library logical="PCM_Espressif">
       <uri>C:\Users\armstrjj\OneDrive - Rose-Hulman Institute of Technology\Documents\KiCad\7.0\3rdparty/symbols/com_github_espressif_kicad-libraries/Espressif.kicad_sym</uri>
     </library>
     <library logical="Regulator_Linear">
-      <uri>C:\Program Files\KiCad\7.0\share\kicad\symbols\/Regulator_Linear.kicad_sym</uri>
+      <uri>C:\Users\armstrjj\AppData\Local\Programs\KiCad\7.0\share\kicad\symbols\/Regulator_Linear.kicad_sym</uri>
     </library>
     <library logical="Simulation_SPICE">
-      <uri>C:\Program Files\KiCad\7.0\share\kicad\symbols\/Simulation_SPICE.kicad_sym</uri>
+      <uri>C:\Users\armstrjj\AppData\Local\Programs\KiCad\7.0\share\kicad\symbols\/Simulation_SPICE.kicad_sym</uri>
     </library>
     <library logical="Switch">
-      <uri>C:\Program Files\KiCad\7.0\share\kicad\symbols\/Switch.kicad_sym</uri>
+      <uri>C:\Users\armstrjj\AppData\Local\Programs\KiCad\7.0\share\kicad\symbols\/Switch.kicad_sym</uri>
     </library>
     <library logical="Transistor_BJT">
-      <uri>C:\Program Files\KiCad\7.0\share\kicad\symbols\/Transistor_BJT.kicad_sym</uri>
+      <uri>C:\Users\armstrjj\AppData\Local\Programs\KiCad\7.0\share\kicad\symbols\/Transistor_BJT.kicad_sym</uri>
     </library>
   </libraries>
   <nets>
@@ -2265,7 +2302,7 @@
     </net>
     <net code="2" name="+3.3V">
       <node ref="C11" pin="1" pintype="passive"/>
-      <node ref="C25" pin="2" pintype="passive"/>
+      <node ref="C25" pin="1" pintype="passive"/>
       <node ref="C26" pin="1" pintype="passive"/>
       <node ref="J1" pin="1" pinfunction="Pin_1" pintype="passive"/>
       <node ref="J7" pin="1" pinfunction="Pin_1" pintype="passive"/>
@@ -2313,7 +2350,7 @@
       <node ref="U4" pin="3" pinfunction="VI" pintype="power_in"/>
     </net>
     <net code="5" name="+12V">
-      <node ref="C7" pin="2" pintype="passive"/>
+      <node ref="C7" pin="1" pintype="passive"/>
       <node ref="C8" pin="2" pintype="passive"/>
       <node ref="D1" pin="1" pinfunction="K" pintype="passive"/>
       <node ref="J9" pin="3" pinfunction="Pin_3" pintype="passive"/>
@@ -2546,12 +2583,12 @@
       <node ref="C22" pin="2" pintype="passive"/>
       <node ref="C23" pin="2" pintype="passive"/>
       <node ref="C24" pin="1" pintype="passive"/>
-      <node ref="C25" pin="1" pintype="passive"/>
+      <node ref="C25" pin="2" pintype="passive"/>
       <node ref="C26" pin="2" pintype="passive"/>
       <node ref="C3" pin="1" pintype="passive"/>
       <node ref="C5" pin="1" pintype="passive"/>
       <node ref="C6" pin="1" pintype="passive"/>
-      <node ref="C7" pin="1" pintype="passive"/>
+      <node ref="C7" pin="2" pintype="passive"/>
       <node ref="C8" pin="1" pintype="passive"/>
       <node ref="C9" pin="1" pintype="passive"/>
       <node ref="J1" pin="3" pinfunction="Pin_3" pintype="passive"/>
