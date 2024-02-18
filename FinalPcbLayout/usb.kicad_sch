@@ -4,6 +4,14 @@
 
   (paper "A4")
 
+  (title_block
+    (title "USB C / USB PD Programming")
+    (date "2024-02-11")
+    (rev "1.0")
+    (company "Rose-Hulman Institute of Technology")
+    (comment 1 "Author: Jake Armstrong")
+  )
+
   (lib_symbols
     (symbol "Connector:USB_C_Receptacle" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
       (property "Reference" "J" (at -10.16 29.21 0)
