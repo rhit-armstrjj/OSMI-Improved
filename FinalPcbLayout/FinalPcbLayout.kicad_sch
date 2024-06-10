@@ -7207,6 +7207,44 @@
 		)
 	)
 	(sheet
+		(at 246.38 149.86)
+		(size 12.7 3.81)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "0c4568ab-e472-46df-a249-2a91d51733dd")
+		(property "Sheetname" "MotorChannel"
+			(at 246.38 149.1484 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "MotorChannel.kicad_sch"
+			(at 246.38 154.2546 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "FinalPcbLayout"
+				(path "/9fcc273e-b318-4ade-b4c7-fe4ddbf9d677"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 243.84 24.13)
 		(size 31.75 19.05)
 		(fields_autoplaced yes)

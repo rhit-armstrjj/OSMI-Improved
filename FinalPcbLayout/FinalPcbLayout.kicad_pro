@@ -814,6 +814,10 @@
     [
       "c9a1ad6e-0e94-4050-a244-9bb2ec345a35",
       "Power"
+    ],
+    [
+      "0c4568ab-e472-46df-a249-2a91d51733dd",
+      "MotorChannel"
     ]
   ],
   "text_variables": {}
